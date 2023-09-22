@@ -9,7 +9,7 @@
   display: grid;
   direction: rtl;
   grid-template-columns: repeat(10, 1fr);
-  grid-template-rows: 70px 1000px 400px;
+  grid-template-rows: 70px auto 1frx;
   grid-template-areas: "logo nav nav nav nav nav nav nav nav nav""cont  cont cont cont cont  cont cont cont side side"
     "fo fo fo fo fo fo fo fo fo fo ";
 }
